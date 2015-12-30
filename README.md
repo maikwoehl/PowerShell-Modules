@@ -11,7 +11,7 @@ Extract a ZIP File
     
     
 ### SYNTAX
-Extract-ZipFile [-ZipFile] <String> [[-Destination] <String>] [-CreateDirectory] [<CommonParameters>]
+Extract-ZipFile [-ZipFile] <String> [[-Destination] <String>] [-CreateDirectory] [\<CommonParameters\>]
     
     
 ### DESCRIPTION
