@@ -3,23 +3,23 @@ A collection of some PowerShell-Modules
 
 ## Extract-ZipFile
 
-NAME
-    Extract-ZipFile
+### NAME
+Extract-ZipFile
     
-SYNOPSIS
-    Extract a ZIP File
-    
-    
-SYNTAX
-    Extract-ZipFile [-ZipFile] <String> [[-Destination] <String>] [-CreateDirectory] [<CommonParameters>]
+### SYNOPSIS
+Extract a ZIP File
     
     
-DESCRIPTION
-    The CMDLET extracts a ZipFile into a given destination and can create a directory to store the zip file contents 
-    in there.
+### SYNTAX
+Extract-ZipFile [-ZipFile] <String> [[-Destination] <String>] [-CreateDirectory] [<CommonParameters>]
+    
+    
+### DESCRIPTION
+The CMDLET extracts a ZipFile into a given destination and can create a directory to store the zip file contents 
+in there.
     
 
-PARAMETER
+### PARAMETER
     -ZipFile <String>
         A relative or absolute path to the zip file that should be extracted.
         
@@ -36,6 +36,7 @@ PARAMETER
         "OutBuffer", "PipelineVariable" und "OutVariable". You can find further information here: 
         "about_CommonParameters" (http://go.microsoft.com/fwlink/?LinkID=113216). 
     
+### EXAMPLES
     -------------------------- EXAMPLE 1 --------------------------
     
     C:\Users\JohnDoe\Downloads PS>Extract-ZipFile .\file.zip
